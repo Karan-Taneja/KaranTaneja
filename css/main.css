@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+@font-face{
+    font-family: 'social_media';
+    src: local('social_media'), url('fonts/social_media.ttf') 
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #0f161e;
+    margin: 2%;
+    font-family: 'Inconsolata', 'monospace';
+}
+.content{
+    color: #F7FCFF;
+    border: #5c7288 solid 5px;
+}
+.border{
+    padding: 5%;
+}
+.title {
+    font-weight: 900;
+}
+.majorSection {
+    display: block;
+    padding-left: 12px;
+    font-size: 25px;
+    line-height: 1.25em
+}
+.top {
+    text-align: center;
+}
+.myName {
+    font-weight: 500;
+    font-size: 75px
+}
+hr { 
+    width: calc(100% - 50px); 
+    height:1px;
+    background: #5c7288;
+    border: #5c7288 solid 2.5px;
+}
+.divider{
+    font-family: 'Inconsolata';
+    font-size: 30px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.link{
+    color: #36b0fe;
+    font-size: 24px;
+    font-weight: 300;
+}
+.link:link {
+    text-decoration: none;
+}
+.link:visited{
+    color: #36b0fe;
+}
+.link:hover{
+    color: white;
+}
+.link.current {
+    color: white;
+    pointer-events: none;
+    cursor: default;
+}
+.mainCategory {
+    display: block;
+    padding-left: 12px;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 1.5em;
+}
+.myPicture {
+    float: right;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+.bottom {
+    text-align: center;
+}
+.sM {
+    font-size: 60px;
+}
+.socialMedia {
+    font-family: 'social_media';
+    font-size: 50px;
+}
+.third {
+    padding-left: 24px;
+}
+.majorSection.subsection {
+    font-size: 35px;
+}
+.subsection{
+    color: #5c7288;
+}
+ul{
+    list-style-type: square;
+}
+.listing{
+    font-size: 30px;
+}
+.description{
+    display: block;
+}
+.listing .description{
+    color: #5c7288;
+    font-size: 25px;
+}
+.majorSection.description {
+    font-size: 30px;
+}
+.subtitle{
+    font-size: 25px;
+    color: #5c7288;
+}
+.lighter{
+    font-style: italic;
+}
